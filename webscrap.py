@@ -1,6 +1,6 @@
 from googleapiclient.discovery import build
 
-def get_fitness_youtubers():
+def get_youtubers():
     api_key = 'API_KEY'  # Replace with your YouTube Data API v3 key
     youtube = build('youtube', 'v3', developerKey=api_key)
 
@@ -41,7 +41,7 @@ def get_fitness_youtubers():
     return channels
 
 # Example usage
-fitness_youtubers = get_fitness_youtubers()
+youtubers = get_youtubers()
 
-for youtuber in fitness_youtubers:
+for youtuber in youtubers:
     print(f"Channel: {youtuber['title']}, Subscribers: {youtuber['subscribers']}")
