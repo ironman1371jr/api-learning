@@ -1,5 +1,5 @@
 # api-learning
-Contains A simple project which makes use of google api to retrieve youtube channels which match certain criteria 
+Contains A simple project which makes use of google api to retrieve youtube channels which match certain criteria like name, min subscribers, maximum subscribers
 
 Steps to Get Your YouTube API Key:
 1. Go to the [Google Cloud Console](https://console.cloud.google.com/).
